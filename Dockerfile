@@ -11,7 +11,6 @@ RUN chown -R dsa-user:dsa-user /kit/Panorama/hedzup/mn && \
     mkdir /opt/Panorama && \
     chown dsa-user:dsa-user /opt/Panorama
 
-USER dsa-user
 CMD /kit/Panorama/hedzup/mn/docker/CMD-agent.sh
 
 EXPOSE 2111 7072 33000
