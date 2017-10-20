@@ -1,8 +1,10 @@
-#########################################
+#####################################################################
 #
 # This Docker image is the Panorama Agent
 #
-#########################################
+# Copyright (c) 2017 Riverbed Technology Inc. All rights reserved.
+#
+#####################################################################
 FROM centos:7
 
 # Install components we need (log_packager.sh:net-tools)
